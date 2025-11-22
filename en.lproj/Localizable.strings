@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  MovieMinds
+
+  Created by Lahori, Divyansh on 08/06/24.
+  
+*/
+
+// MainScreen
+"MainScreen.trending" = "Trending";
+"MainScreen.nowPlaying" = "Now Playing";
+"MainScreen.popular" = "Popular";
+"MainScreen.topRated" = "Top Rated";
+"MainScreen.errorStateText" = "Some error has occured. Not able to load the application requirements.";
+
+
+//Custom Dialogue
+"CustomDialogue.userInput.title" = "Name your Watchlist";
+"CustomDialogue.userInput.message" = "Get your Customized Watchlist of Movies to watch later.";
+"CustomDialogue.userInput.placeholder" = "How's the Mood";
+"CustomDialogue.userInput.confirm" = "Confirm";
+"CustomDialogue.confirmation.title" = "Great Cinema Choice !";
+"CustomDialogue.confirmation.message" = "**%@** has just been added to one of your Watchlist.";
+"CustomDialogue.confirmation.done" = "Done";
+
+
+//Horizontal Scroll View
+
+"HorizontalScrollView.all" = "All";
+"HorizontalScrollView.today" = "Today";
+"HorizontalScrollView.thisWeek" = "This Week";
+"HorizontalScrollView.all" = "All";
+
+// WatchlistSheet View
+
+"WatchlistSheetView.addAWatchlist" = "Add a Watchlist";
+"WatchlistSheetView.yourWatchlists" = "Your Watchlists";
+"WatchlistSheetView.addWatchlist.emptyWatchlistMessage" = "You don't have any Watchlists. Create one down here!";
+"WatchlistSheetView.filter.emptyWatchlistMessage" = "You don't have any **Watchlists**. Create one by **long pressing** any movie card.";
+"WatchlistSheetView.filter.infoText" = "You can filter the movies according to your Watchlists.";
+"WatchlistSheetView.addWatchlist.infoText" = "Add movie to your existing Watchlists or create a new one.";
+"WatchlistSheetView.resetFilters" = "Reset Filters";
