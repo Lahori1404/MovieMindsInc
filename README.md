@@ -23,6 +23,8 @@ button should navigate to a new screen with list of now playing movies.
 
 ● User can see the details of a movie by tapping on movie card, which then navigates the user to movie details screen.
 
+● User can watch movie trailer by tapping on movie player on the movie details screen.
+
 ● User can add a movie to a playlist by tapping on "Add to Watchlist" button, which opens a bottom sheet, to add the movie to watchlist.
 
 ● In the bottom sheet, choose to add the movie to an existing playlist or create a new one. Playlists will all be stored locally. (User can come back see the movie added to playlist on home screen)
@@ -35,20 +37,35 @@ button should navigate to a new screen with list of now playing movies.
 
 ● On tapping any suggestion row item user is navigated to movie details page from where the user can add the movie to their watch lists
 
+# Setup and Build Steps
+
+1. Clone the repository from the link given in the repository.
+2. Once cloned in your Mac machine, open the project file in Xcode and build it and run on the iOS simulator.
+3. Can be run on real device if both the device and you macbook are connected to same network or use a data cable to connect the device to the laptop.
+4. Note: Youtube player might not be available to run on simulator due to ATS settings, so try running it on real device.
 
 # Previews
-<img width="1290" height="2796" alt="Simulator Screenshot - iPhone 15 Pro Max - 2025-07-20 at 12 35 36" src="https://github.com/user-attachments/assets/77e828e7-cbd6-45ae-ab7a-361cec68d10d" />
-<img width="1290" height="2796" alt="Simulator Screenshot - iPhone 15 Pro Max - 2025-07-20 at 12 35 42" src="https://github.com/user-attachments/assets/46127542-226d-4f00-87b1-f53fb7c7047f" />
-<img width="1290" height="2796" alt="Simulator Screenshot - iPhone 15 Pro Max - 2025-07-20 at 12 35 57" src="https://github.com/user-attachments/assets/0d350348-8f09-446d-8c4c-bffaf26f3a1b" />
-<img width="1290" height="2796" alt="Simulator Screenshot - iPhone 15 Pro Max - 2025-07-20 at 12 36 04" src="https://github.com/user-attachments/assets/91de8aa9-31a4-453d-b957-faf0237dd315" />
-<img width="1290" height="2796" alt="Simulator Screenshot - iPhone 15 Pro Max - 2025-07-20 at 12 36 28" src="https://github.com/user-attachments/assets/c8ba8230-ebc6-45e4-b1b7-7ee4398dcb2c" />
-<img width="1290" height="2796" alt="Simulator Screenshot - iPhone 15 Pro Max - 2025-07-20 at 12 36 38" src="https://github.com/user-attachments/assets/3e05fd4c-411c-489d-8071-d24c1cc6e698" />
-<img width="1290" height="2796" alt="Simulator Screenshot - iPhone 15 Pro Max - 2025-07-20 at 12 36 42" src="https://github.com/user-attachments/assets/e81fac92-2a22-4836-b863-43f57d22c121" />
-<img width="1290" height="2796" alt="Simulator Screenshot - iPhone 15 Pro Max - 2025-07-20 at 12 36 52" src="https://github.com/user-attachments/assets/62d9899e-f1c4-43ec-a37a-67d066e0738b" />
-<img width="1290" height="2796" alt="Simulator Screenshot - iPhone 15 Pro Max - 2025-07-20 at 12 37 01" src="https://github.com/user-attachments/assets/c21972e6-ed24-4bef-88d0-2e421e007c34" />
-<img width="1290" height="2796" alt="Simulator Screenshot - iPhone 15 Pro Max - 2025-07-20 at 12 37 18" src="https://github.com/user-attachments/assets/4812da1e-9a16-4838-a686-4843faef2fa6" />
-<img width="1290" height="2796" alt="Simulator Screenshot - iPhone 15 Pro Max - 2025-07-20 at 12 37 31" src="https://github.com/user-attachments/assets/1ed93d7a-ccee-44c7-a823-545c2fc138f6" />
-<img width="1290" height="2796" alt="Simulator Screenshot - iPhone 15 Pro Max - 2025-07-20 at 12 38 01" src="https://github.com/user-attachments/assets/95e6db37-a930-490f-b716-c38d1100d246" />
+
+<img width="585" height="1266" alt="Simulator Screenshot - iPhone 17 Pro - 2025-11-22 at 10 12 54" src="https://github.com/user-attachments/assets/0bf50d87-0e70-4406-8b44-5e5fa6d2a7f5" />
+
+<img width="585" height="1266" alt="Simulator Screenshot - iPhone 17 Pro - 2025-11-22 at 13 13 37" src="https://github.com/user-attachments/assets/6eb27b6d-ebd1-4157-ac19-e33d5c1864fb" />
+
+<img width="585" height="1266" alt="Simulator Screenshot - iPhone 17 Pro - 2025-11-22 at 10 12 32" src="https://github.com/user-attachments/assets/d2cbc130-9c77-4725-9865-4ed6496a81ff" />
+
+<img width="585" height="1266" alt="IMG_9527" src="https://github.com/user-attachments/assets/93f7f9e8-c2ca-4309-87a6-bdaee6b7fa29" />
+
+<img width="585" height="1266" alt="IMG_9521" src="https://github.com/user-attachments/assets/b3af2e83-8d25-463b-8aad-e89517457b5c" />
+
+<img width="585" height="1266" alt="IMG_9520" src="https://github.com/user-attachments/assets/ab600872-5f82-45a5-ae7c-9f8ab756b349" />
+
+<img width="585" height="1266" alt="IMG_9526" src="https://github.com/user-attachments/assets/ef7e8dbf-ba13-4832-af9e-35e121ab3ae7" />
+<img width="585" height="1266" alt="IMG_9525" src="https://github.com/user-attachments/assets/a43efb5b-a084-47a2-9365-5ae6113d283a" />
+<img width="585" height="1266" alt="IMG_9524" src="https://github.com/user-attachments/assets/6d80e798-4878-462c-a5fe-878cc8813edc" />
+<img width="585" height="1266" alt="IMG_9523" src="https://github.com/user-attachments/assets/21559697-9b61-4a28-8228-cf7a9ac13d58" />
+<img width="585" height="1266" alt="IMG_9522" src="https://github.com/user-attachments/assets/f6fbc311-0f06-4bde-87f0-28f236568035" />
+<img width="585" height="1266" alt="IMG_9521" src="https://github.com/user-attachments/assets/6a36bb13-d2c1-4541-96c7-42825def1e28" />
+<img width="585" height="1266" alt="IMG_9520" src="https://github.com/user-attachments/assets/3eba18c7-920b-4c1c-b735-762ec7beba33" />
+<img width="585" height="1266" alt="IMG_9519" src="https://github.com/user-attachments/assets/d7fee262-55d3-4efd-8240-1e615e0c213c" />
 
 
 
